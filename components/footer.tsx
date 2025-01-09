@@ -24,7 +24,7 @@ export default function Footer() {
                 className="flex items-center space-x-2 hover:text-red-500 transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>kontakt@example.com</span>
+                <span>marcinblichar@gmail.com</span>
               </a>
             </div>
           </div>
