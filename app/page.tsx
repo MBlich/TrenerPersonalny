@@ -23,11 +23,11 @@ export default function Home() {
 }
 
 
-import Head from 'next/head';
+import Header from 'next/header';
 
 export default function Header() {
   return (
-    <Head>
+    <Header>
       <title>Twoja Strona - Wysokiej jakości usługi</title>
       <meta name="description" content="Opis Twojej strony, zawierający słowa kluczowe.">
       <meta name="keywords" content="słowo1, słowo2, słowo3">
@@ -37,7 +37,7 @@ export default function Header() {
       <meta property="og:image" content="/path/to/image.jpg" />
       <meta property="og:url" content="https://www.example.com" />
       <meta name="robots" content="index, follow" />
-    </Head>
+    </Header>
   );
 }
 
