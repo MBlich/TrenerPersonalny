@@ -43,24 +43,24 @@ export default function RootLayout({
 
 
 
-import { defaultMetadata } from "./metadata"
+// import { defaultMetadata } from "./metadata"
 
-export const metadata = defaultMetadata
+// export const metadata = defaultMetadata
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="pl">
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://trenerpersonalny-blicharski.pl" />
-      </head>
-      <body>{children}</body>
-    </html>
-  )
-}
+// export default function RootLayout({
+//   children,
+// }: {
+//   children: React.ReactNode
+// }) {
+//   return (
+//     <html lang="pl">
+//       <head>
+//         <meta charSet="utf-8" />
+//         <meta name="viewport" content="width=device-width, initial-scale=1" />
+//         <link rel="canonical" href="https://trenerpersonalny-blicharski.pl" />
+//       </head>
+//       <body>{children}</body>
+//     </html>
+//   )
+// }
 
