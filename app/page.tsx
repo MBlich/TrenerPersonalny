@@ -63,6 +63,7 @@ export default function Home() {
             "telephone": "+48 123 456 789"
           })}
         </script>
+        <meta name="google-site-verification" content="LEqZWDrXHCXnphOzzTZuvATu6jpPP5sb89e1EzJhAVE" />
       </Head>
       <Header />
       <Hero />
