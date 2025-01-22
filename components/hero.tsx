@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background image */}
       <Image
         src="/hero.png"
-        alt="Training session background"
+        alt="Sesja trneningowa z trenerem Blicharskim"
         fill
         className="object-cover brightness-50"
         priority
