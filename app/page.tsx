@@ -36,6 +36,7 @@ export default function Home() {
     <main>
       <Head>
         <title>Blicharski - Trener Personalny Wrocław</title>
+        <meta name="google-site-verification" content="LEqZWDrXHCXnphOzzTZuvATu6jpPP5sb89e1EzJhAVE" />
         <meta name="description" content="Profesjonalne treningi personalne we Wrocławiu. Zaufaj trenerowi z doświadczeniem, który pomoże Ci osiągnąć Twoje cele fitness." />
         <meta name="keywords" content="trener personalny Wrocław, treningi personalne, fitness Wrocław, zdrowy styl życia, Blicharski" />
         <meta name="author" content="Blicharski" />
