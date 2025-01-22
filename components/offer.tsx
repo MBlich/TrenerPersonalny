@@ -42,7 +42,7 @@ export default function Offer() {
           <div className="relative h-[400px] w-full">
             <Image
               src="/last.jpg"
-              alt="Trening grupowy w ringu"
+              alt="Trening grupowy w ringu z trenerem Blicharskim"
               fill
               className="object-cover rounded-lg"
             />
