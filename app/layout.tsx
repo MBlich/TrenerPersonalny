@@ -11,11 +11,11 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'pl_PL',
-    url: 'https://www.example.com',
+    url: 'https://trenerpersonalny-blicharski.pl',
     siteName: 'Trener Marcin Blicharski',
     images: [
       {
-        url: 'https://www.example.com/og-image.jpg',
+        url: 'https://www.trenerpersonalny-blicharski.pl/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Trener Marcin Blicharski',
@@ -41,4 +41,26 @@ export default function RootLayout({
   )
 }
 
+
+
+// import { defaultMetadata } from "./metadata"
+
+// export const metadata = defaultMetadata
+
+// export default function RootLayout({
+//   children,
+// }: {
+//   children: React.ReactNode
+// }) {
+//   return (
+//     <html lang="pl">
+//       <head>
+//         <meta charSet="utf-8" />
+//         <meta name="viewport" content="width=device-width, initial-scale=1" />
+//         <link rel="canonical" href="https://trenerpersonalny-blicharski.pl" />
+//       </head>
+//       <body>{children}</body>
+//     </html>
+//   )
+// }
 
