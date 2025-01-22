@@ -23,6 +23,25 @@ export default function Home() {
 }
 
 
+import Head from 'next/head';
+
+export default function Header() {
+  return (
+    <Head>
+      <title>Twoja Strona - Wysokiej jakości usługi</title>
+      <meta name="description" content="Opis Twojej strony, zawierający słowa kluczowe.">
+      <meta name="keywords" content="słowo1, słowo2, słowo3">
+      <meta name="author" content="Twoje Imię">
+      <meta property="og:title" content="Twoja Strona - Wysokiej jakości usługi" />
+      <meta property="og:description" content="Opis strony wyświetlany w mediach społecznościowych" />
+      <meta property="og:image" content="/path/to/image.jpg" />
+      <meta property="og:url" content="https://www.example.com" />
+      <meta name="robots" content="index, follow" />
+    </Head>
+  );
+}
+
+
 
 // import { Metadata } from 'next'
 // import Header from '@/components/header'
